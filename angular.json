@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "baseHref": "https://github.com/smmajnar123/boss.git",
             "outputPath": "dist/boss-simulation",
             "index": "src/index.html",
             "browser": "src/main.ts",
